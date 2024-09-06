@@ -1,0 +1,43 @@
+[0.006s] Invoking command in '/home/tom007/catkin_ws_ros2/build/action_test': CMAKE_PREFIX_PATH=/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/action_test:/opt/ros/humble /usr/bin/cmake --build /home/tom007/catkin_ws_ros2/build/action_test -- -j16 -l16
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.040s] [ 50%] Built target action_client
+[0.044s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[1.401s] [01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:[m[K In function ‘[01m[Krclcpp_action::GoalResponse handle_goal(const GoalUUID&, std::shared_ptr<const my_msgs::action::Test_Goal_<std::allocator<void> > >)[m[K’:
+[1.401s] [01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:9:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.401s]     9 | rclcpp_action::GoalResponse handle_goal([01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const testAction::Goal> goal)
+[1.401s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.401s] [01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:9:118:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.401s]     9 | rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const testAction::Goal> goal[m[K)
+[1.401s]       |                                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.401s] [01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:[m[K In function ‘[01m[Krclcpp_action::CancelResponse handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_msgs::action::Test> >)[m[K’:
+[1.402s] [01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:14:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.402s]    14 | rclcpp_action::CancelResponse handle_cancel([01;35m[Kconst std::shared_ptr<goalHandleTestAction> goal_handle[m[K)
+[1.402s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[1.402s] [01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:[m[K In function ‘[01m[Kvoid handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_msgs::action::Test> >)[m[K’:
+[1.402s] [01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:21:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.402s]    21 | void handle_accepted([01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<my_msgs::action::Test>> goal_handle[m[K)
+[1.402s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[2.003s] [100%] [32m[1mLinking CXX executable action_server[0m
+[2.133s] [100%] Built target action_server
+[2.140s] Invoked command in '/home/tom007/catkin_ws_ros2/build/action_test' returned '0': CMAKE_PREFIX_PATH=/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/action_test:/opt/ros/humble /usr/bin/cmake --build /home/tom007/catkin_ws_ros2/build/action_test -- -j16 -l16
+[2.159s] Invoking command in '/home/tom007/catkin_ws_ros2/build/action_test': CMAKE_PREFIX_PATH=/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/action_test:/opt/ros/humble /usr/bin/cmake --install /home/tom007/catkin_ws_ros2/build/action_test
+[2.164s] -- Install configuration: ""
+[2.165s] -- Installing: /home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_server
+[2.165s] -- Set runtime path of "/home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_server" to ""
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_client
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/package_run_dependencies/action_test
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/parent_prefix_path/action_test
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/ament_prefix_path.sh
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/ament_prefix_path.dsv
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/path.sh
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/path.dsv
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.bash
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.sh
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.zsh
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.dsv
+[2.166s] -- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/package.dsv
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/packages/action_test
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/cmake/action_testConfig.cmake
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/cmake/action_testConfig-version.cmake
+[2.166s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/package.xml
+[2.167s] Invoked command in '/home/tom007/catkin_ws_ros2/build/action_test' returned '0': CMAKE_PREFIX_PATH=/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/action_test:/opt/ros/humble /usr/bin/cmake --install /home/tom007/catkin_ws_ros2/build/action_test

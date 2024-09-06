@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/tom007/catkin_ws_ros2/build/param_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tom007/catkin_ws_ros2/build/param_test -- -j16 -l16
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target param_node[0m
+[0.041s] [ 50%] [32mBuilding CXX object CMakeFiles/param_node.dir/src/param.cpp.o[0m
+[1.668s] [100%] [32m[1mLinking CXX executable param_node[0m
+[1.736s] [100%] Built target param_node
+[1.744s] Invoked command in '/home/tom007/catkin_ws_ros2/build/param_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tom007/catkin_ws_ros2/build/param_test -- -j16 -l16
+[1.761s] Invoking command in '/home/tom007/catkin_ws_ros2/build/param_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tom007/catkin_ws_ros2/build/param_test
+[1.765s] -- Install configuration: ""
+[1.765s] -- Installing: /home/tom007/catkin_ws_ros2/install/param_test/lib/param_test/param_node
+[1.766s] -- Set runtime path of "/home/tom007/catkin_ws_ros2/install/param_test/lib/param_test/param_node" to ""
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/ament_index/resource_index/package_run_dependencies/param_test
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/ament_index/resource_index/parent_prefix_path/param_test
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/environment/ament_prefix_path.sh
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/environment/ament_prefix_path.dsv
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/environment/path.sh
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/environment/path.dsv
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/local_setup.bash
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/local_setup.sh
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/local_setup.zsh
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/local_setup.dsv
+[1.766s] -- Installing: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/package.dsv
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/ament_index/resource_index/packages/param_test
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/cmake/param_testConfig.cmake
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/cmake/param_testConfig-version.cmake
+[1.766s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/param_test/share/param_test/package.xml
+[1.767s] Invoked command in '/home/tom007/catkin_ws_ros2/build/param_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tom007/catkin_ws_ros2/build/param_test

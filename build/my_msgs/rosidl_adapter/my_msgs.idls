@@ -1,0 +1,3 @@
+/home/tom007/catkin_ws_ros2/build/my_msgs/rosidl_adapter/my_msgs:msg/Test.idl
+/home/tom007/catkin_ws_ros2/build/my_msgs/rosidl_adapter/my_msgs:srv/Test.idl
+/home/tom007/catkin_ws_ros2/build/my_msgs/rosidl_adapter/my_msgs:action/Test.idl

@@ -1,0 +1,605 @@
+[0.000000] (-) TimerEvent: {}
+[0.000410] (my_msgs) JobQueued: {'identifier': 'my_msgs', 'dependencies': OrderedDict()}
+[0.000427] (action_test) JobQueued: {'identifier': 'action_test', 'dependencies': OrderedDict([('my_msgs', '/home/tom007/catkin_ws_ros2/install/my_msgs')])}
+[0.000438] (test_cpp) JobQueued: {'identifier': 'test_cpp', 'dependencies': OrderedDict([('my_msgs', '/home/tom007/catkin_ws_ros2/install/my_msgs')])}
+[0.000447] (my_msgs) JobStarted: {'identifier': 'my_msgs'}
+[0.008391] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'cmake'}
+[0.008533] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/tom007/catkin_ws_ros2/src/my_msgs', '-DCMAKE_INSTALL_PREFIX=/home/tom007/catkin_ws_ros2/install/my_msgs'], 'cwd': '/home/tom007/catkin_ws_ros2/build/my_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:'), ('USER', 'tom007'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom007'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tom007/catkin_ws_ros2/src/my_msgs/action'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1853'), ('SYSTEMD_EXEC_PID', '2032'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24770'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tom007'), ('JOURNAL_STREAM', '8:19880'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tom007'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tom:@/tmp/.ICE-unix/2008,unix/tom:/tmp/.ICE-unix/2008'), ('INVOCATION_ID', '55bf2d984f244f3ea30defea042375a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O8Z5S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a8469d5f47.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tom007/catkin_ws_ros2/build/my_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble')]), 'shell': False}
+[0.070504] (my_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099980] (-) TimerEvent: {}
+[0.106918] (my_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.113512] (my_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.161328] (my_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.165602] (my_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.165984] (my_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.166206] (my_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.168494] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200083] (-) TimerEvent: {}
+[0.220723] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.224903] (my_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.225082] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.225231] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.228549] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300270] (-) TimerEvent: {}
+[0.330855] (my_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.385195] (my_msgs) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400432] (-) TimerEvent: {}
+[0.412005] (my_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.414918] (my_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.420517] (my_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.429369] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.440199] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.467629] (my_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.469327] (my_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500563] (-) TimerEvent: {}
+[0.528074] (my_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.544846] (my_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.567349] (my_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.573010] (my_msgs) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600702] (-) TimerEvent: {}
+[0.624031] (my_msgs) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.624203] (my_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.672084] (my_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.672999] (my_msgs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700812] (-) TimerEvent: {}
+[0.707769] (my_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.717360] (my_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.800912] (-) TimerEvent: {}
+[0.901259] (-) TimerEvent: {}
+[0.923593] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.001478] (-) TimerEvent: {}
+[1.101730] (-) TimerEvent: {}
+[1.184586] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201831] (-) TimerEvent: {}
+[1.286005] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.301918] (-) TimerEvent: {}
+[1.302371] (my_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.303303] (my_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.321509] (my_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.321651] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.321731] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.321793] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.335016] (my_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.374190] (my_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.385588] (my_msgs) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.385853] (my_msgs) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.385948] (my_msgs) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.386476] (my_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.387232] (my_msgs) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.387322] (my_msgs) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.387409] (my_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.388754] (my_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.402080] (-) TimerEvent: {}
+[1.407985] (my_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.409321] (my_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/tom007/catkin_ws_ros2/build/my_msgs\n'}
+[1.417302] (my_msgs) CommandEnded: {'returncode': 0}
+[1.418233] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'build'}
+[1.418553] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tom007/catkin_ws_ros2/build/my_msgs', '--', '-j16', '-l16'], 'cwd': '/home/tom007/catkin_ws_ros2/build/my_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:'), ('USER', 'tom007'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom007'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tom007/catkin_ws_ros2/src/my_msgs/action'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1853'), ('SYSTEMD_EXEC_PID', '2032'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24770'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tom007'), ('JOURNAL_STREAM', '8:19880'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tom007'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tom:@/tmp/.ICE-unix/2008,unix/tom:/tmp/.ICE-unix/2008'), ('INVOCATION_ID', '55bf2d984f244f3ea30defea042375a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O8Z5S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a8469d5f47.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tom007/catkin_ws_ros2/build/my_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble')]), 'shell': False}
+[1.445459] (my_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.451530] (my_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.454404] (my_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_my_msgs\n'}
+[1.502306] (-) TimerEvent: {}
+[1.600477] (my_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.600745] (my_msgs) StdoutLine: {'line': b'creating my_msgs.egg-info\n'}
+[1.600941] (my_msgs) StdoutLine: {'line': b'writing my_msgs.egg-info/PKG-INFO\n'}
+[1.601093] (my_msgs) StdoutLine: {'line': b'writing dependency_links to my_msgs.egg-info/dependency_links.txt\n'}
+[1.601179] (my_msgs) StdoutLine: {'line': b'writing top-level names to my_msgs.egg-info/top_level.txt\n'}
+[1.601280] (my_msgs) StdoutLine: {'line': b"writing manifest file 'my_msgs.egg-info/SOURCES.txt'\n"}
+[1.602395] (-) TimerEvent: {}
+[1.602762] (my_msgs) StdoutLine: {'line': b"reading manifest file 'my_msgs.egg-info/SOURCES.txt'\n"}
+[1.603083] (my_msgs) StdoutLine: {'line': b"writing manifest file 'my_msgs.egg-info/SOURCES.txt'\n"}
+[1.623896] (my_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_my_msgs_egg\n'}
+[1.702618] (-) TimerEvent: {}
+[1.781039] (my_msgs) StdoutLine: {'line': b'[  4%] Built target my_msgs__cpp\n'}
+[1.787244] (my_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.787403] (my_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.787475] (my_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.787890] (my_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_msgs/msg/detail/test__functions.c.o\x1b[0m\n'}
+[1.788223] (my_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_msgs/action/detail/test__functions.c.o\x1b[0m\n'}
+[1.789342] (my_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_msgs/srv/detail/test__functions.c.o\x1b[0m\n'}
+[1.802882] (-) TimerEvent: {}
+[1.882788] (my_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmy_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.902968] (-) TimerEvent: {}
+[1.915087] (my_msgs) StdoutLine: {'line': b'[ 19%] Built target my_msgs__rosidl_generator_c\n'}
+[1.922355] (my_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.923179] (my_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.924409] (my_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.003064] (-) TimerEvent: {}
+[2.014020] (my_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgs/msg/test__type_support.cpp.o\x1b[0m\n'}
+[2.014226] (my_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgs/action/test__type_support.cpp.o\x1b[0m\n'}
+[2.014310] (my_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgs/srv/test__type_support.cpp.o\x1b[0m\n'}
+[2.052701] (my_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgs/srv/detail/test__type_support.cpp.o\x1b[0m\n'}
+[2.052919] (my_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgs/action/detail/test__type_support.cpp.o\x1b[0m\n'}
+[2.053214] (my_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgs/msg/detail/test__type_support.cpp.o\x1b[0m\n'}
+[2.103160] (-) TimerEvent: {}
+[2.107162] (my_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgs/msg/detail/dds_fastrtps/test__type_support.cpp.o\x1b[0m\n'}
+[2.107399] (my_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgs/srv/detail/dds_fastrtps/test__type_support.cpp.o\x1b[0m\n'}
+[2.107582] (my_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgs/action/detail/dds_fastrtps/test__type_support.cpp.o\x1b[0m\n'}
+[2.166589] (my_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgs/msg/test__type_support.cpp.o\x1b[0m\n'}
+[2.166788] (my_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgs/srv/test__type_support.cpp.o\x1b[0m\n'}
+[2.166861] (my_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgs/action/test__type_support.cpp.o\x1b[0m\n'}
+[2.203251] (-) TimerEvent: {}
+[2.220222] (my_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.252864] (my_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgs/msg/detail/test__type_support_c.cpp.o\x1b[0m\n'}
+[2.253429] (my_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgs/action/detail/test__type_support_c.cpp.o\x1b[0m\n'}
+[2.254410] (my_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgs/srv/detail/test__type_support_c.cpp.o\x1b[0m\n'}
+[2.259465] (my_msgs) StdoutLine: {'line': b'[ 59%] Built target my_msgs__rosidl_typesupport_c\n'}
+[2.303376] (-) TimerEvent: {}
+[2.341911] (my_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgs/msg/detail/test__type_support.c.o\x1b[0m\n'}
+[2.342178] (my_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgs/action/detail/test__type_support.c.o\x1b[0m\n'}
+[2.342290] (my_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgs/srv/detail/test__type_support.c.o\x1b[0m\n'}
+[2.397475] (my_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libmy_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.403486] (-) TimerEvent: {}
+[2.410707] (my_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.422174] (my_msgs) StdoutLine: {'line': b'[ 70%] Built target my_msgs__rosidl_typesupport_introspection_c\n'}
+[2.444337] (my_msgs) StdoutLine: {'line': b'[ 70%] Built target my_msgs__rosidl_typesupport_cpp\n'}
+[2.502827] (my_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.503561] (-) TimerEvent: {}
+[2.531038] (my_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.553463] (my_msgs) StdoutLine: {'line': b'[ 74%] Built target my_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.579453] (my_msgs) StdoutLine: {'line': b'[ 74%] Built target my_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.584763] (my_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.603771] (-) TimerEvent: {}
+[2.631632] (my_msgs) StdoutLine: {'line': b'[ 76%] Built target my_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.645036] (my_msgs) StdoutLine: {'line': b'[ 76%] Built target my_msgs\n'}
+[2.658468] (my_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.703946] (-) TimerEvent: {}
+[2.804231] (-) TimerEvent: {}
+[2.904426] (-) TimerEvent: {}
+[3.004734] (-) TimerEvent: {}
+[3.104927] (-) TimerEvent: {}
+[3.148920] (my_msgs) StdoutLine: {'line': b'[ 78%] Built target my_msgs__py\n'}
+[3.160895] (my_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_msgs/action/_test_s.c.o\x1b[0m\n'}
+[3.161011] (my_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_msgs/msg/_test_s.c.o\x1b[0m\n'}
+[3.162289] (my_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_msgs/srv/_test_s.c.o\x1b[0m\n'}
+[3.205136] (-) TimerEvent: {}
+[3.269821] (my_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/libmy_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[3.296715] (my_msgs) StdoutLine: {'line': b'[ 87%] Built target my_msgs__rosidl_generator_py\n'}
+[3.305257] (-) TimerEvent: {}
+[3.307795] (my_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.310465] (my_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.311108] (my_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.382948] (my_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.387007] (my_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.387255] (my_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.405383] (-) TimerEvent: {}
+[3.409769] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_c__pyext\n'}
+[3.414750] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.417321] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.424933] (my_msgs) CommandEnded: {'returncode': 0}
+[3.487233] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'install'}
+[3.492016] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tom007/catkin_ws_ros2/build/my_msgs'], 'cwd': '/home/tom007/catkin_ws_ros2/build/my_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:'), ('USER', 'tom007'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom007'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tom007/catkin_ws_ros2/src/my_msgs/action'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1853'), ('SYSTEMD_EXEC_PID', '2032'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24770'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tom007'), ('JOURNAL_STREAM', '8:19880'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tom007'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tom:@/tmp/.ICE-unix/2008,unix/tom:/tmp/.ICE-unix/2008'), ('INVOCATION_ID', '55bf2d984f244f3ea30defea042375a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O8Z5S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a8469d5f47.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tom007/catkin_ws_ros2/build/my_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble')]), 'shell': False}
+[3.497603] (my_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.497734] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/ament_index/resource_index/rosidl_interfaces/my_msgs\n'}
+[3.497879] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs\n'}
+[3.497942] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv\n'}
+[3.497974] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail\n'}
+[3.498002] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__struct.h\n'}
+[3.498029] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__type_support.h\n'}
+[3.498055] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__functions.h\n'}
+[3.498079] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__functions.c\n'}
+[3.498116] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/test.h\n'}
+[3.498165] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg\n'}
+[3.498192] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail\n'}
+[3.498217] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__struct.h\n'}
+[3.498242] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__type_support.h\n'}
+[3.498267] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__functions.h\n'}
+[3.498292] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__functions.c\n'}
+[3.498316] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/test.h\n'}
+[3.498340] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.498384] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action\n'}
+[3.498415] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail\n'}
+[3.498437] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__struct.h\n'}
+[3.498459] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__type_support.h\n'}
+[3.498483] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__functions.h\n'}
+[3.498507] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__functions.c\n'}
+[3.498532] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/test.h\n'}
+[3.498570] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/environment/library_path.sh\n'}
+[3.498605] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/environment/library_path.dsv\n'}
+[3.498630] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_generator_c.so\n'}
+[3.498789] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_generator_c.so" to ""\n'}
+[3.498832] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs\n'}
+[3.498870] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv\n'}
+[3.498917] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail\n'}
+[3.498953] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[3.498990] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg\n'}
+[3.499016] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.499042] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail\n'}
+[3.499066] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[3.499091] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action\n'}
+[3.499128] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail\n'}
+[3.499169] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[3.499196] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.499232] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.499269] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs\n'}
+[3.499313] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv\n'}
+[3.499343] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail\n'}
+[3.499381] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__struct.hpp\n'}
+[3.499408] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__traits.hpp\n'}
+[3.499435] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__builder.hpp\n'}
+[3.499471] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/test.hpp\n'}
+[3.499518] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg\n'}
+[3.499543] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail\n'}
+[3.499567] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__struct.hpp\n'}
+[3.499591] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__traits.hpp\n'}
+[3.499616] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__builder.hpp\n'}
+[3.499650] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/test.hpp\n'}
+[3.499691] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action\n'}
+[3.499715] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail\n'}
+[3.499737] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__struct.hpp\n'}
+[3.499823] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__traits.hpp\n'}
+[3.499863] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__builder.hpp\n'}
+[3.499987] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/test.hpp\n'}
+[3.500022] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs\n'}
+[3.500054] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv\n'}
+[3.500111] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail\n'}
+[3.500138] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.500165] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/dds_fastrtps\n'}
+[3.500189] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg\n'}
+[3.500212] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail\n'}
+[3.500238] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.500264] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/dds_fastrtps\n'}
+[3.500287] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.500311] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action\n'}
+[3.500336] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail\n'}
+[3.500384] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.500432] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/dds_fastrtps\n'}
+[3.500456] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.500480] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.500593] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs\n'}
+[3.500644] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv\n'}
+[3.500808] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail\n'}
+[3.500860] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[3.500893] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__type_support.c\n'}
+[3.500921] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg\n'}
+[3.500948] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail\n'}
+[3.500974] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[3.501002] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__type_support.c\n'}
+[3.501030] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.501058] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action\n'}
+[3.501085] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail\n'}
+[3.501111] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[3.501143] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__type_support.c\n'}
+[3.501192] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.501222] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.501249] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_c.so\n'}
+[3.501276] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.501323] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs\n'}
+[3.501349] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv\n'}
+[3.501392] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail\n'}
+[3.501449] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.501476] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/srv/detail/test__type_support.cpp\n'}
+[3.501502] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg\n'}
+[3.501548] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail\n'}
+[3.501574] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.501600] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/msg/detail/test__type_support.cpp\n'}
+[3.501625] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action\n'}
+[3.501679] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail\n'}
+[3.501706] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.501733] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/include/my_msgs/my_msgs/action/detail/test__type_support.cpp\n'}
+[3.501781] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.501807] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.501832] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_cpp.so\n'}
+[3.501886] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.501919] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/environment/pythonpath.sh\n'}
+[3.501948] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/environment/pythonpath.dsv\n'}
+[3.502004] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs-0.0.0-py3.10.egg-info\n'}
+[3.502035] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.502063] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.502118] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.502148] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.502178] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs\n'}
+[3.502230] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/srv\n'}
+[3.502262] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/srv/__init__.py\n'}
+[3.502291] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/srv/_test.py\n'}
+[3.502345] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/srv/_test_s.c\n'}
+[3.502375] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/__init__.py\n'}
+[3.502402] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.502474] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/_my_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.502504] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/msg\n'}
+[3.502533] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/msg/__init__.py\n'}
+[3.502586] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/msg/_test.py\n'}
+[3.502618] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/msg/_test_s.c\n'}
+[3.502646] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.502734] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/_my_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.502827] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/libmy_msgs__rosidl_generator_py.so\n'}
+[3.502854] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.502891] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/action\n'}
+[3.502917] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/action/__init__.py\n'}
+[3.502944] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/action/_test.py\n'}
+[3.502982] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/action/_test_s.c\n'}
+[3.503022] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/_my_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.505461] (-) TimerEvent: {}
+[3.528202] (my_msgs) StdoutLine: {'line': b"Listing '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs'...\n"}
+[3.528309] (my_msgs) StdoutLine: {'line': b"Compiling '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/__init__.py'...\n"}
+[3.528339] (my_msgs) StdoutLine: {'line': b"Listing '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/action'...\n"}
+[3.528366] (my_msgs) StdoutLine: {'line': b"Compiling '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/action/__init__.py'...\n"}
+[3.528392] (my_msgs) StdoutLine: {'line': b"Compiling '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/action/_test.py'...\n"}
+[3.528416] (my_msgs) StdoutLine: {'line': b"Listing '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/msg'...\n"}
+[3.528446] (my_msgs) StdoutLine: {'line': b"Compiling '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/msg/__init__.py'...\n"}
+[3.528469] (my_msgs) StdoutLine: {'line': b"Compiling '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/msg/_test.py'...\n"}
+[3.528493] (my_msgs) StdoutLine: {'line': b"Listing '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/srv'...\n"}
+[3.528517] (my_msgs) StdoutLine: {'line': b"Compiling '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/srv/__init__.py'...\n"}
+[3.528540] (my_msgs) StdoutLine: {'line': b"Compiling '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/srv/_test.py'...\n"}
+[3.531401] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.531513] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.531617] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.531745] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.531884] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.531936] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.531962] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_generator_py.so\n'}
+[3.532001] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/my_msgs/lib/libmy_msgs__rosidl_generator_py.so" to ""\n'}
+[3.532050] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/msg/Test.idl\n'}
+[3.532089] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/srv/Test.idl\n'}
+[3.532130] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/action/Test.idl\n'}
+[3.532171] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/msg/Test.msg\n'}
+[3.532213] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/srv/Test.srv\n'}
+[3.532252] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/srv/Test_Request.msg\n'}
+[3.532294] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/srv/Test_Response.msg\n'}
+[3.532332] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/action/Test.action\n'}
+[3.532389] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/ament_index/resource_index/package_run_dependencies/my_msgs\n'}
+[3.532444] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/ament_index/resource_index/parent_prefix_path/my_msgs\n'}
+[3.532489] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/environment/ament_prefix_path.sh\n'}
+[3.532530] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/environment/ament_prefix_path.dsv\n'}
+[3.532570] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/environment/path.sh\n'}
+[3.532608] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/environment/path.dsv\n'}
+[3.532650] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/local_setup.bash\n'}
+[3.532694] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/local_setup.sh\n'}
+[3.532736] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/local_setup.zsh\n'}
+[3.532774] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/local_setup.dsv\n'}
+[3.532815] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/package.dsv\n'}
+[3.532866] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/ament_index/resource_index/packages/my_msgs\n'}
+[3.532926] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/export_my_msgs__rosidl_generator_cExport.cmake\n'}
+[3.532974] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/export_my_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.533024] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/export_my_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.533068] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/export_my_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.533114] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/export_my_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.533160] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/export_my_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.533202] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/export_my_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.533248] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.533292] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.533343] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.533389] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.533495] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.533522] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.533567] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.533607] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.533675] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/export_my_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.533714] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/export_my_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.533749] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.533783] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.533815] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.533848] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.533889] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.533929] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.533970] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.534011] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/my_msgsConfig.cmake\n'}
+[3.534044] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake/my_msgsConfig-version.cmake\n'}
+[3.534085] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/package.xml\n'}
+[3.535941] (my_msgs) CommandEnded: {'returncode': 0}
+[3.605668] (-) TimerEvent: {}
+[3.613375] (my_msgs) JobEnded: {'identifier': 'my_msgs', 'rc': 0}
+[3.613671] (action_test) JobStarted: {'identifier': 'action_test'}
+[3.615489] (test_cpp) JobStarted: {'identifier': 'test_cpp'}
+[3.618247] (action_test) JobProgress: {'identifier': 'action_test', 'progress': 'cmake'}
+[3.618434] (action_test) Command: {'cmd': ['/usr/bin/cmake', '/home/tom007/catkin_ws_ros2/src/action_test', '-DCMAKE_INSTALL_PREFIX=/home/tom007/catkin_ws_ros2/install/action_test'], 'cwd': '/home/tom007/catkin_ws_ros2/build/action_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:'), ('USER', 'tom007'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom007'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tom007/catkin_ws_ros2/src/my_msgs/action'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1853'), ('SYSTEMD_EXEC_PID', '2032'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24770'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tom007'), ('JOURNAL_STREAM', '8:19880'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tom007'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tom:@/tmp/.ICE-unix/2008,unix/tom:/tmp/.ICE-unix/2008'), ('INVOCATION_ID', '55bf2d984f244f3ea30defea042375a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O8Z5S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a8469d5f47.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tom007/catkin_ws_ros2/build/action_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/opt/ros/humble')]), 'shell': False}
+[3.619949] (test_cpp) JobProgress: {'identifier': 'test_cpp', 'progress': 'cmake'}
+[3.620327] (test_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/tom007/catkin_ws_ros2/src/test_cpp', '-DCMAKE_INSTALL_PREFIX=/home/tom007/catkin_ws_ros2/install/test_cpp'], 'cwd': '/home/tom007/catkin_ws_ros2/build/test_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:'), ('USER', 'tom007'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom007'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tom007/catkin_ws_ros2/src/my_msgs/action'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1853'), ('SYSTEMD_EXEC_PID', '2032'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24770'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tom007'), ('JOURNAL_STREAM', '8:19880'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tom007'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tom:@/tmp/.ICE-unix/2008,unix/tom:/tmp/.ICE-unix/2008'), ('INVOCATION_ID', '55bf2d984f244f3ea30defea042375a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O8Z5S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a8469d5f47.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tom007/catkin_ws_ros2/build/test_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/opt/ros/humble')]), 'shell': False}
+[3.653814] (action_test) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.654025] (test_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.687757] (test_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.689397] (action_test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.692181] (test_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.693529] (action_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.705827] (-) TimerEvent: {}
+[3.739447] (action_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.739881] (test_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.744284] (action_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.744356] (test_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.744392] (action_test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.744420] (test_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.744495] (action_test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.744524] (test_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.746287] (test_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.746495] (action_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.798270] (action_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.799068] (test_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.802498] (action_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.802599] (action_test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.803021] (action_test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.804106] (action_test) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.804557] (test_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.804735] (test_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.805013] (test_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.805913] (-) TimerEvent: {}
+[3.806130] (test_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.899636] (action_test) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.902770] (test_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.905991] (-) TimerEvent: {}
+[3.951499] (action_test) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.951672] (test_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.973726] (action_test) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.973914] (test_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.976120] (action_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.976322] (test_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.980605] (action_test) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.980938] (test_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.987697] (action_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.987880] (test_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.996814] (action_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.996884] (test_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.006160] (-) TimerEvent: {}
+[4.021349] (action_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.021587] (test_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.022688] (test_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.022852] (action_test) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.075680] (test_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.075903] (action_test) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.089962] (test_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.091918] (action_test) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.106266] (-) TimerEvent: {}
+[4.116716] (action_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.117413] (test_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.120782] (action_test) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.121507] (test_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.166113] (action_test) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.166445] (action_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.167379] (test_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.167556] (test_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.206471] (-) TimerEvent: {}
+[4.211497] (test_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.212140] (test_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.213977] (action_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.214963] (action_test) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.242597] (test_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.245146] (action_test) StdoutLine: {'line': b'-- Found my_msgs: 0.0.0 (/home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake)\n'}
+[4.250385] (test_cpp) StdoutLine: {'line': b'-- Found my_msgs: 0.0.0 (/home/tom007/catkin_ws_ros2/install/my_msgs/share/my_msgs/cmake)\n'}
+[4.278768] (action_test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.306688] (-) TimerEvent: {}
+[4.318222] (test_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.332142] (test_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[4.332380] (action_test) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.332537] (action_test) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.332606] (action_test) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.333386] (action_test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.333546] (test_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/tom007/catkin_ws_ros2/build/test_cpp\n'}
+[4.334422] (action_test) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.334521] (action_test) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.335023] (action_test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.336256] (action_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.341574] (test_cpp) CommandEnded: {'returncode': 0}
+[4.342180] (test_cpp) JobProgress: {'identifier': 'test_cpp', 'progress': 'build'}
+[4.342650] (test_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tom007/catkin_ws_ros2/build/test_cpp', '--', '-j16', '-l16'], 'cwd': '/home/tom007/catkin_ws_ros2/build/test_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:'), ('USER', 'tom007'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom007'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tom007/catkin_ws_ros2/src/my_msgs/action'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1853'), ('SYSTEMD_EXEC_PID', '2032'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24770'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tom007'), ('JOURNAL_STREAM', '8:19880'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tom007'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tom:@/tmp/.ICE-unix/2008,unix/tom:/tmp/.ICE-unix/2008'), ('INVOCATION_ID', '55bf2d984f244f3ea30defea042375a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O8Z5S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a8469d5f47.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tom007/catkin_ws_ros2/build/test_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/opt/ros/humble')]), 'shell': False}
+[4.345263] (action_test) StdoutLine: {'line': b'-- Generating done\n'}
+[4.346275] (action_test) StdoutLine: {'line': b'-- Build files have been written to: /home/tom007/catkin_ws_ros2/build/action_test\n'}
+[4.352657] (action_test) CommandEnded: {'returncode': 0}
+[4.353025] (action_test) JobProgress: {'identifier': 'action_test', 'progress': 'build'}
+[4.353276] (action_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tom007/catkin_ws_ros2/build/action_test', '--', '-j16', '-l16'], 'cwd': '/home/tom007/catkin_ws_ros2/build/action_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:'), ('USER', 'tom007'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom007'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tom007/catkin_ws_ros2/src/my_msgs/action'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1853'), ('SYSTEMD_EXEC_PID', '2032'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24770'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tom007'), ('JOURNAL_STREAM', '8:19880'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tom007'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tom:@/tmp/.ICE-unix/2008,unix/tom:/tmp/.ICE-unix/2008'), ('INVOCATION_ID', '55bf2d984f244f3ea30defea042375a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O8Z5S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a8469d5f47.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tom007/catkin_ws_ros2/build/action_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/opt/ros/humble')]), 'shell': False}
+[4.374031] (test_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub_ros2_test.cpp.o\x1b[0m\n'}
+[4.374206] (test_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/test_node.dir/src/main.cpp.o\x1b[0m\n'}
+[4.375639] (test_cpp) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/server_node.dir/src/server/server.cpp.o\x1b[0m\n'}
+[4.376054] (test_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server_client_node.dir/src/server/server_client.cpp.o\x1b[0m\n'}
+[4.381684] (action_test) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o\x1b[0m\n'}
+[4.383126] (action_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o\x1b[0m\n'}
+[4.406873] (-) TimerEvent: {}
+[4.507180] (-) TimerEvent: {}
+[4.607588] (-) TimerEvent: {}
+[4.708010] (-) TimerEvent: {}
+[4.808418] (-) TimerEvent: {}
+[4.908845] (-) TimerEvent: {}
+[5.009257] (-) TimerEvent: {}
+[5.109689] (-) TimerEvent: {}
+[5.210105] (-) TimerEvent: {}
+[5.310441] (-) TimerEvent: {}
+[5.410764] (-) TimerEvent: {}
+[5.511131] (-) TimerEvent: {}
+[5.611547] (-) TimerEvent: {}
+[5.711979] (-) TimerEvent: {}
+[5.812302] (-) TimerEvent: {}
+[5.912704] (-) TimerEvent: {}
+[6.013002] (-) TimerEvent: {}
+[6.113402] (-) TimerEvent: {}
+[6.213732] (-) TimerEvent: {}
+[6.314048] (-) TimerEvent: {}
+[6.405469] (action_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable action_client\x1b[0m\n'}
+[6.407974] (action_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable action_server\x1b[0m\n'}
+[6.414178] (-) TimerEvent: {}
+[6.514548] (-) TimerEvent: {}
+[6.555916] (action_test) StdoutLine: {'line': b'[100%] Built target action_server\n'}
+[6.556126] (action_test) StdoutLine: {'line': b'[100%] Built target action_client\n'}
+[6.568815] (action_test) CommandEnded: {'returncode': 0}
+[6.593907] (action_test) JobProgress: {'identifier': 'action_test', 'progress': 'install'}
+[6.594494] (action_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tom007/catkin_ws_ros2/build/action_test'], 'cwd': '/home/tom007/catkin_ws_ros2/build/action_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:'), ('USER', 'tom007'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom007'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tom007/catkin_ws_ros2/src/my_msgs/action'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1853'), ('SYSTEMD_EXEC_PID', '2032'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24770'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tom007'), ('JOURNAL_STREAM', '8:19880'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tom007'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tom:@/tmp/.ICE-unix/2008,unix/tom:/tmp/.ICE-unix/2008'), ('INVOCATION_ID', '55bf2d984f244f3ea30defea042375a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O8Z5S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a8469d5f47.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tom007/catkin_ws_ros2/build/action_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/opt/ros/humble')]), 'shell': False}
+[6.602560] (action_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.602875] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_server\n'}
+[6.603502] (action_test) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_server" to ""\n'}
+[6.603587] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_client\n'}
+[6.603877] (action_test) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_client" to ""\n'}
+[6.604064] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/package_run_dependencies/action_test\n'}
+[6.604311] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/parent_prefix_path/action_test\n'}
+[6.605286] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/ament_prefix_path.sh\n'}
+[6.605407] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/ament_prefix_path.dsv\n'}
+[6.605602] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/path.sh\n'}
+[6.605853] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/path.dsv\n'}
+[6.605999] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.bash\n'}
+[6.606237] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.sh\n'}
+[6.606461] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.zsh\n'}
+[6.606657] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.dsv\n'}
+[6.606867] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/package.dsv\n'}
+[6.607111] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/packages/action_test\n'}
+[6.607234] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/cmake/action_testConfig.cmake\n'}
+[6.607394] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/cmake/action_testConfig-version.cmake\n'}
+[6.607855] (action_test) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/package.xml\n'}
+[6.610006] (action_test) CommandEnded: {'returncode': 0}
+[6.614745] (-) TimerEvent: {}
+[6.645685] (action_test) JobEnded: {'identifier': 'action_test', 'rc': 0}
+[6.714859] (-) TimerEvent: {}
+[6.721801] (test_cpp) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable server_node\x1b[0m\n'}
+[6.814963] (-) TimerEvent: {}
+[6.830924] (test_cpp) StdoutLine: {'line': b'[ 62%] Built target server_node\n'}
+[6.843386] (test_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server_client_node\x1b[0m\n'}
+[6.915067] (-) TimerEvent: {}
+[6.956814] (test_cpp) StdoutLine: {'line': b'[ 75%] Built target server_client_node\n'}
+[7.015269] (-) TimerEvent: {}
+[7.115595] (-) TimerEvent: {}
+[7.215837] (-) TimerEvent: {}
+[7.269171] (test_cpp) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable test_node\x1b[0m\n'}
+[7.315933] (-) TimerEvent: {}
+[7.386292] (test_cpp) StdoutLine: {'line': b'[ 87%] Built target test_node\n'}
+[7.416015] (-) TimerEvent: {}
+[7.516326] (-) TimerEvent: {}
+[7.616680] (-) TimerEvent: {}
+[7.716970] (-) TimerEvent: {}
+[7.817310] (-) TimerEvent: {}
+[7.917631] (-) TimerEvent: {}
+[8.017888] (-) TimerEvent: {}
+[8.118141] (-) TimerEvent: {}
+[8.218462] (-) TimerEvent: {}
+[8.318812] (-) TimerEvent: {}
+[8.419087] (-) TimerEvent: {}
+[8.519402] (-) TimerEvent: {}
+[8.619721] (-) TimerEvent: {}
+[8.719982] (-) TimerEvent: {}
+[8.820302] (-) TimerEvent: {}
+[8.920552] (-) TimerEvent: {}
+[9.020808] (-) TimerEvent: {}
+[9.121125] (-) TimerEvent: {}
+[9.221452] (-) TimerEvent: {}
+[9.321796] (-) TimerEvent: {}
+[9.422153] (-) TimerEvent: {}
+[9.522491] (-) TimerEvent: {}
+[9.554542] (test_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sub_node\x1b[0m\n'}
+[9.622624] (-) TimerEvent: {}
+[9.722862] (-) TimerEvent: {}
+[9.794006] (test_cpp) StdoutLine: {'line': b'[100%] Built target sub_node\n'}
+[9.801317] (test_cpp) CommandEnded: {'returncode': 0}
+[9.822931] (-) TimerEvent: {}
+[9.825081] (test_cpp) JobProgress: {'identifier': 'test_cpp', 'progress': 'install'}
+[9.825192] (test_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tom007/catkin_ws_ros2/build/test_cpp'], 'cwd': '/home/tom007/catkin_ws_ros2/build/test_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:'), ('USER', 'tom007'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tom007'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/tom007/catkin_ws_ros2/src/my_msgs/action'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1853'), ('SYSTEMD_EXEC_PID', '2032'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24770'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tom007'), ('JOURNAL_STREAM', '8:19880'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tom007'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tom:@/tmp/.ICE-unix/2008,unix/tom:/tmp/.ICE-unix/2008'), ('INVOCATION_ID', '55bf2d984f244f3ea30defea042375a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O8Z5S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a8469d5f47.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/my_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tom007/catkin_ws_ros2/build/test_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tom007/catkin_ws_ros2/install/my_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/action_test:/home/tom007/catkin_ws_ros2/install/test_cpp:/opt/ros/humble')]), 'shell': False}
+[9.829102] (test_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.829336] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/test_node\n'}
+[9.829643] (test_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/test_node" to ""\n'}
+[9.829766] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/sub_node\n'}
+[9.831333] (test_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/sub_node" to ""\n'}
+[9.831365] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/server_node\n'}
+[9.831523] (test_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/server_node" to ""\n'}
+[9.831563] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/server_client_node\n'}
+[9.832017] (test_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/server_client_node" to ""\n'}
+[9.832074] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/ament_index/resource_index/package_run_dependencies/test_cpp\n'}
+[9.832296] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/ament_index/resource_index/parent_prefix_path/test_cpp\n'}
+[9.832503] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/environment/ament_prefix_path.sh\n'}
+[9.832550] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/environment/ament_prefix_path.dsv\n'}
+[9.832784] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/environment/path.sh\n'}
+[9.832817] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/environment/path.dsv\n'}
+[9.832961] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/local_setup.bash\n'}
+[9.833145] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/local_setup.sh\n'}
+[9.833366] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/local_setup.zsh\n'}
+[9.833535] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/local_setup.dsv\n'}
+[9.833718] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/package.dsv\n'}
+[9.833888] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/ament_index/resource_index/packages/test_cpp\n'}
+[9.833946] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/cmake/test_cppConfig.cmake\n'}
+[9.834139] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/cmake/test_cppConfig-version.cmake\n'}
+[9.834536] (test_cpp) StdoutLine: {'line': b'-- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/package.xml\n'}
+[9.836300] (test_cpp) CommandEnded: {'returncode': 0}
+[9.864099] (test_cpp) JobEnded: {'identifier': 'test_cpp', 'rc': 0}
+[9.864428] (-) EventReactorShutdown: {}

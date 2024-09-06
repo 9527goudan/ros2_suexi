@@ -1,0 +1,28 @@
+[0.006s] Invoking command in '/home/tom007/catkin_ws_ros2/build/test_cpp': CMAKE_PREFIX_PATH=/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/action_test:/opt/ros/humble /usr/bin/cmake --build /home/tom007/catkin_ws_ros2/build/test_cpp -- -j16 -l16
+[0.042s] [ 50%] Built target server_client_node
+[0.042s] [ 50%] Built target server_node
+[0.043s] [ 75%] Built target test_node
+[0.046s] [100%] Built target sub_node
+[0.055s] Invoked command in '/home/tom007/catkin_ws_ros2/build/test_cpp' returned '0': CMAKE_PREFIX_PATH=/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/action_test:/opt/ros/humble /usr/bin/cmake --build /home/tom007/catkin_ws_ros2/build/test_cpp -- -j16 -l16
+[0.083s] Invoking command in '/home/tom007/catkin_ws_ros2/build/test_cpp': CMAKE_PREFIX_PATH=/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/action_test:/opt/ros/humble /usr/bin/cmake --install /home/tom007/catkin_ws_ros2/build/test_cpp
+[0.089s] -- Install configuration: ""
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/test_node
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/sub_node
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/server_node
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/lib/test_cpp/server_client_node
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/ament_index/resource_index/package_run_dependencies/test_cpp
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/ament_index/resource_index/parent_prefix_path/test_cpp
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/environment/ament_prefix_path.sh
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/environment/ament_prefix_path.dsv
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/environment/path.sh
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/environment/path.dsv
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/local_setup.bash
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/local_setup.sh
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/local_setup.zsh
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/local_setup.dsv
+[0.090s] -- Installing: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/package.dsv
+[0.090s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/ament_index/resource_index/packages/test_cpp
+[0.091s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/cmake/test_cppConfig.cmake
+[0.091s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/cmake/test_cppConfig-version.cmake
+[0.091s] -- Up-to-date: /home/tom007/catkin_ws_ros2/install/test_cpp/share/test_cpp/package.xml
+[0.092s] Invoked command in '/home/tom007/catkin_ws_ros2/build/test_cpp' returned '0': CMAKE_PREFIX_PATH=/home/tom007/catkin_ws_ros2/install/my_msgs:/home/tom007/catkin_ws_ros2/install/test_cpp:/home/tom007/catkin_ws_ros2/install/action_test:/opt/ros/humble /usr/bin/cmake --install /home/tom007/catkin_ws_ros2/build/test_cpp

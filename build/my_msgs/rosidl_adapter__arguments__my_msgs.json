@@ -1,0 +1,8 @@
+{
+  "package_name": "my_msgs",
+  "non_idl_tuples": [
+    "/home/tom007/catkin_ws_ros2/src/my_msgs:msg/Test.msg",
+    "/home/tom007/catkin_ws_ros2/src/my_msgs:srv/Test.srv",
+    "/home/tom007/catkin_ws_ros2/src/my_msgs:action/Test.action"
+  ]
+}

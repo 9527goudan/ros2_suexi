@@ -1,0 +1,4 @@
+[01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_client.cpp:[m[K In function ‘[01m[Kvoid reslut_callback(const rclcpp_action::ClientGoalHandle<my_msgs::action::Test>::WrappedResult&)[m[K’:
+[01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_client.cpp:38:12:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   38 |     [01;35m[Kreslut.code[m[K;
+      |     [01;35m[K~~~~~~~^~~~[m[K

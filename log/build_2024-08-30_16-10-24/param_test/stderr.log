@@ -1,0 +1,13 @@
+/usr/bin/ld: CMakeFiles/param_node.dir/src/param.cpp.o: in function `main':
+param.cpp:(.text+0x17e): undefined reference to `Json::Value::Value(Json::ValueType)'
+/usr/bin/ld: param.cpp:(.text+0x26b): undefined reference to `Json::Value::Value(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: param.cpp:(.text+0x284): undefined reference to `Json::Value::append(Json::Value&&)'
+/usr/bin/ld: param.cpp:(.text+0x293): undefined reference to `Json::Value::~Value()'
+/usr/bin/ld: param.cpp:(.text+0x4bc): undefined reference to `Json::operator<<(std::ostream&, Json::Value const&)'
+/usr/bin/ld: param.cpp:(.text+0x5d4): undefined reference to `Json::Value::~Value()'
+/usr/bin/ld: param.cpp:(.text+0x6a3): undefined reference to `Json::Value::~Value()'
+/usr/bin/ld: param.cpp:(.text+0x790): undefined reference to `Json::Value::~Value()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/param_node.dir/build.make:159：param_node] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/param_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

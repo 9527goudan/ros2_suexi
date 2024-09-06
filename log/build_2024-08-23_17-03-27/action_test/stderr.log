@@ -1,0 +1,8 @@
+[01m[K<command-line>:[m[K [01;31m[Kerror: [m[Kmacro names must be identifiers
+[01m[K<command-line>:[m[K [01;31m[Kerror: [m[Kmacro names must be identifiers
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76：CMakeFiles/action_client.dir/src/action_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/action_client.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76：CMakeFiles/action_server.dir/src/action_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/action_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

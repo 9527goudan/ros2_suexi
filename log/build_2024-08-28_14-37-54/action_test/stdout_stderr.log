@@ -1,0 +1,20 @@
+[100%] Built target action_server
+[100%] Built target action_client
+-- Install configuration: ""
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_server
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_client
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/package_run_dependencies/action_test
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/parent_prefix_path/action_test
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/path.sh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/path.dsv
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.bash
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.sh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.zsh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.dsv
+-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/package.dsv
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/packages/action_test
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/cmake/action_testConfig.cmake
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/cmake/action_testConfig-version.cmake
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/package.xml

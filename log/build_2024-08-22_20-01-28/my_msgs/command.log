@@ -1,0 +1,6 @@
+Invoking command in '/home/tom007/catkin_ws_ros2/build/my_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tom007/catkin_ws_ros2/src/my_msgs -DCMAKE_INSTALL_PREFIX=/home/tom007/catkin_ws_ros2/install/my_msgs
+Invoked command in '/home/tom007/catkin_ws_ros2/build/my_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tom007/catkin_ws_ros2/src/my_msgs -DCMAKE_INSTALL_PREFIX=/home/tom007/catkin_ws_ros2/install/my_msgs
+Invoking command in '/home/tom007/catkin_ws_ros2/build/my_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tom007/catkin_ws_ros2/build/my_msgs -- -j16 -l16
+Invoked command in '/home/tom007/catkin_ws_ros2/build/my_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tom007/catkin_ws_ros2/build/my_msgs -- -j16 -l16
+Invoking command in '/home/tom007/catkin_ws_ros2/build/my_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tom007/catkin_ws_ros2/build/my_msgs
+Invoked command in '/home/tom007/catkin_ws_ros2/build/my_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tom007/catkin_ws_ros2/build/my_msgs

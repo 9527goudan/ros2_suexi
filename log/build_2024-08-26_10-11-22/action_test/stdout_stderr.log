@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[ 50%] Built target action_client
+[ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:[m[K In function ‘[01m[Krclcpp_action::GoalResponse handle_goal(const GoalUUID&, std::shared_ptr<const my_msgs::action::Test_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:9:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | rclcpp_action::GoalResponse handle_goal([01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const testAction::Goal> goal)
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:9:118:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const testAction::Goal> goal[m[K)
+      |                                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:[m[K In function ‘[01m[Krclcpp_action::CancelResponse handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_msgs::action::Test> >)[m[K’:
+[01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:14:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   14 | rclcpp_action::CancelResponse handle_cancel([01;35m[Kconst std::shared_ptr<goalHandleTestAction> goal_handle[m[K)
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:[m[K In function ‘[01m[Kvoid handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_msgs::action::Test> >)[m[K’:
+[01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_server.cpp:21:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   21 | void handle_accepted([01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<my_msgs::action::Test>> goal_handle[m[K)
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable action_server[0m
+[100%] Built target action_server
+-- Install configuration: ""
+-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_server
+-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_server" to ""
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_client
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/package_run_dependencies/action_test
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/parent_prefix_path/action_test
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/path.sh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/path.dsv
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.bash
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.sh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.zsh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.dsv
+-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/package.dsv
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/packages/action_test
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/cmake/action_testConfig.cmake
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/cmake/action_testConfig-version.cmake
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/package.xml

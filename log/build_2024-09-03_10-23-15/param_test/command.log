@@ -1,0 +1,4 @@
+Invoking command in '/home/tom007/catkin_ws_ros2/build/param_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tom007/catkin_ws_ros2/build/param_test -- -j16 -l16
+Invoked command in '/home/tom007/catkin_ws_ros2/build/param_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tom007/catkin_ws_ros2/build/param_test -- -j16 -l16
+Invoking command in '/home/tom007/catkin_ws_ros2/build/param_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tom007/catkin_ws_ros2/build/param_test
+Invoked command in '/home/tom007/catkin_ws_ros2/build/param_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tom007/catkin_ws_ros2/build/param_test

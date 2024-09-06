@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_msgs/action/Test.action
+// generated code does not contain a copyright notice
+
+
+module my_msgs {
+  module action {
+    struct Test_Goal {
+      float goal;
+    };
+    struct Test_Result {
+      float result;
+    };
+    struct Test_Feedback {
+      float feedback;
+    };
+  };
+};

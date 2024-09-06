@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_client.cpp:[m[K In function ‘[01m[Kvoid reslut_callback(const rclcpp_action::ClientGoalHandle<my_msgs::action::Test>::WrappedResult&)[m[K’:
+[01m[K/home/tom007/catkin_ws_ros2/src/action_test/src/action_client.cpp:38:12:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   38 |     [01;35m[Kreslut.code[m[K;
+      |     [01;35m[K~~~~~~~^~~~[m[K
+[ 75%] [32m[1mLinking CXX executable action_server[0m
+[ 75%] Built target action_server
+[100%] [32m[1mLinking CXX executable action_client[0m
+[100%] Built target action_client
+-- Install configuration: ""
+-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_server
+-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_server" to ""
+-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_client
+-- Set runtime path of "/home/tom007/catkin_ws_ros2/install/action_test/lib/action_test/action_client" to ""
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/package_run_dependencies/action_test
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/parent_prefix_path/action_test
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/path.sh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/environment/path.dsv
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.bash
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.sh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.zsh
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/local_setup.dsv
+-- Installing: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/package.dsv
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/ament_index/resource_index/packages/action_test
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/cmake/action_testConfig.cmake
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/cmake/action_testConfig-version.cmake
+-- Up-to-date: /home/tom007/catkin_ws_ros2/install/action_test/share/action_test/package.xml
